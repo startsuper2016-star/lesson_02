@@ -1,1 +1,1 @@
-"""Pydantic Schemas Package."""
+# app/schemas/__init__.py
