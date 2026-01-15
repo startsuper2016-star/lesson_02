@@ -2,19 +2,20 @@
 
 from fastapi import FastAPI
 
-from app.api import health
+from app.api import health, consultation
 
 app = FastAPI(
-    title="Lesson 02 API",
-    description="FastAPI Backend API",
-    version="0.1.0",
+    title="医疗问诊 AI 系统",
+    description="基于 FastAPI + LangGraph 的智能问诊系统",
+    version="1.0.0",
 )
 
-# Include routers
+# 注册路由
 app.include_router(health.router, tags=["health"])
+app.include_router(consultation.router, tags=["consultation"])
 
 
 @app.get("/")
 async def root():
     """Root endpoint."""
-    return {"message": "Welcome to Lesson 02 API"}
+    return {"message": "医疗问诊 AI 系统", "version": "1.0.0"}
