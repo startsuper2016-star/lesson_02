@@ -1,0 +1,27 @@
+# Claude Code 临时文件
+tmpclaude-*-cwd
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 环境变量
+.env
+.env.local
