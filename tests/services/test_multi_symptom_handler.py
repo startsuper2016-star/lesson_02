@@ -1,6 +1,6 @@
 # tests/services/test_multi_symptom_handler.py
 import pytest
-from app.services.multi_symptom_handler import MultiSymptomHandler
+from app.services.analysis.multi_symptom_handler import MultiSymptomHandler
 
 
 def test_extract_single_symptom():

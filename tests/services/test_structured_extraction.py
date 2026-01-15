@@ -1,6 +1,6 @@
 # tests/services/test_structured_extraction.py
 import pytest
-from app.services.structured_extraction import StructuredExtractionService
+from app.services.analysis.structured_extraction import StructuredExtractionService
 
 
 def test_extract_chief_complaint():

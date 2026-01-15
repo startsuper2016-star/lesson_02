@@ -1,12 +1,12 @@
 # app/api/consultation.py
 from fastapi import APIRouter, HTTPException, status
 from app.schemas.consultation import ConsultationRequest, ConsultationResponse
-from app.services.session_manager import SessionManager
-from app.services.input_sanitization import InputSanitizationService
-from app.services.emergency_detection import EmergencyDetectionService
-from app.services.structured_extraction import StructuredExtractionService
-from app.services.emotion_support import EmotionSupportService
-from app.services.conflict_resolution import ConflictResolutionService
+from app.services.core.session_manager import SessionManager
+from app.services.support.input_sanitization import InputSanitizationService
+from app.services.detection.emergency_detection import EmergencyDetectionService
+from app.services.analysis.structured_extraction import StructuredExtractionService
+from app.services.support.emotion_support import EmotionSupportService
+from app.services.detection.conflict_resolution import ConflictResolutionService
 from app.models.consultation_state import Phase
 
 

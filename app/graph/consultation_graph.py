@@ -1,9 +1,9 @@
 # app/graph/consultation_graph.py
 from typing import Optional
 from app.models.consultation_state import ConsultationState, Phase
-from app.services.emergency_detection import EmergencyDetectionService
-from app.services.structured_extraction import StructuredExtractionService
-from app.services.emotion_support import EmotionSupportService
+from app.services.detection.emergency_detection import EmergencyDetectionService
+from app.services.analysis.structured_extraction import StructuredExtractionService
+from app.services.support.emotion_support import EmotionSupportService
 
 
 class ConsultationGraph:

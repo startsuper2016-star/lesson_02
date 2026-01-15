@@ -1,6 +1,6 @@
 # tests/services/test_intent_classifier.py
 import pytest
-from app.services.intent_classifier import IntentClassifier, Intent
+from app.services.support.intent_classifier import IntentClassifier, Intent
 
 
 def test_classify_relevant_info():

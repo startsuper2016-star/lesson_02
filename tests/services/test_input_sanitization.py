@@ -1,6 +1,6 @@
 # tests/services/test_input_sanitization.py
 import pytest
-from app.services.input_sanitization import InputSanitizationService
+from app.services.support.input_sanitization import InputSanitizationService
 
 
 def test_sanitize_phone_number():

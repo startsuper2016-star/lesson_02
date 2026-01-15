@@ -1,6 +1,6 @@
 # tests/services/test_conflict_resolution.py
 import pytest
-from app.services.conflict_resolution import ConflictResolutionService, ConflictRisk, Conflict
+from app.services.detection.conflict_resolution import ConflictResolutionService, ConflictRisk, Conflict
 
 
 def test_detect_allergy_conflict():

@@ -1,6 +1,6 @@
 # tests/services/test_emergency_detection.py
 import pytest
-from app.services.emergency_detection import EmergencyDetectionService, EmergencyLevel
+from app.services.detection.emergency_detection import EmergencyDetectionService, EmergencyLevel
 
 
 def test_detect_red_flag_chest_pain():

@@ -1,6 +1,6 @@
 # tests/services/test_emotion_support.py
 import pytest
-from app.services.emotion_support import EmotionSupportService, EmotionLevel
+from app.services.support.emotion_support import EmotionSupportService, EmotionLevel
 
 
 def test_detect_normal_emotion():

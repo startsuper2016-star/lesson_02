@@ -1,6 +1,6 @@
 # tests/services/test_confidence_scoring.py
 import pytest
-from app.services.confidence_scoring import ConfidenceScoringService
+from app.services.core.confidence_scoring import ConfidenceScoringService
 
 
 def test_score_clear_statement():

@@ -3,7 +3,7 @@ import pytest
 import time
 from datetime import datetime, timedelta
 from app.models.consultation_state import ConsultationState, Phase
-from app.services.session_manager import SessionManager
+from app.services.core.session_manager import SessionManager
 
 
 def test_create_new_session():
